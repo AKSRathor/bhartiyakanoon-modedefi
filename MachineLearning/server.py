@@ -21,13 +21,14 @@ import pyrebase
 import sys
 
 config = {
-  "apiKey": "AIzaSyChRhfdj2OHN5iOyrl1oO5Gl9A7zxJGu5Y",
-  "authDomain": "bhartiya-kanoon-1.firebaseapp.com",
-  "projectId": "bhartiya-kanoon-1",
-  "storageBucket": "bhartiya-kanoon-1.appspot.com",
-  "messagingSenderId": "127739662566",
-  "appId": "1:127739662566:web:aaa5514db3415fd100ab27",
-  "measurementId": "G-J1JW88WNW6",
+  "apiKey": "AIzaSyBbJTq27K9hbCBBOgUFUdfSXFo7RnT-6Tg",
+  "authDomain": "blockchain-change-4f5f7.firebaseapp.com",
+  "databaseURL": "https://blockchain-change-4f5f7-default-rtdb.asia-southeast1.firebasedatabase.app",
+  "projectId": "blockchain-change-4f5f7",
+  "storageBucket": "blockchain-change-4f5f7.appspot.com",
+  "messagingSenderId": "495535213143",
+  "appId": "1:495535213143:web:944652e3a1c3e74ecef112",
+  "measurementId": "G-2LE8XE1SYQ"
   "serviceAccount": "ServiceAccount.json",
   "databaseURL": "https://bhartiya-kanoon-1-default-rtdb.firebaseio.com"
 }
@@ -163,7 +164,7 @@ def firebase1(id):
     # return
 
 
-uri = "mongodb+srv://VerifyBharat:kSMFk6y8YTcOSjcn@verifybharatcluster.qzz6zpt.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://verifybharat4:BZPY8BJr0pHBHfPA@change-blockchain.rvx8aei.mongodb.net/"
 # Create a new client and connect to the server
 client = MongoClient(uri)
 # Send a ping to confirm a successful connection
